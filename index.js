@@ -23,7 +23,8 @@ tl.from("#bodyImage1",{
     scale:0,
     // x:100,
     opacity:.5,
-    borderRadius:30
+    borderRadius:30,
+    rotate:20
     
 })
 tl.from("#bodyImage2",{
@@ -31,6 +32,18 @@ tl.from("#bodyImage2",{
     // x:100,
     opacity:.5,
     borderRadius:30,
-    duration:1
+    duration:1,
+    rotate:-20
    
+})
+
+tl.from(".scroll_down",{
+scale:0,
+opacity:0
+})
+tl.from(".scroll_down",{
+y:-20,
+repeat:-1,
+yoyo:true,
+duration:1
 })
