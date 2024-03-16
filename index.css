@@ -23,6 +23,7 @@ body , html{
 
 #navbar img{
     width: 15%;
+    cursor: pointer;
 }
 
 .navbox{
@@ -107,7 +108,7 @@ main .hero button{
     font-size: 1.5vw;
     font-family: "Noto Sans Mono", monospace;
     text-align: center;
-   
+   cursor: pointer;
 
 
 }
